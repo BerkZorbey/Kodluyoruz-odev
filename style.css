@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:red;
+}
+.nav{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+.logo{
+    color: yellow;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    font-size:xx-large;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 5%;
+    margin-top: 1.5%;
+}
+ul li{
+    display: inline;
+    margin:0px 20px 0px 20px;
+}
+ul li a{
+    color:yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
